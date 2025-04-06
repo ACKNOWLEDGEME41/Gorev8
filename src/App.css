@@ -1,0 +1,108 @@
+
+.ödeme-formu {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.ödeme-formu h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.ödeme-formu p {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #4CAF50; 
+  outline: none;
+}
+
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-row .form-group {
+  width: 32%; 
+}
+
+.form-row .form-group input,
+.form-row .form-group select {
+  width: 100%;
+}
+
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0f0f0f;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+@media (max-width: 600px) {
+  .ödeme-formu {
+    padding: 20px;
+  }
+  
+  .form-group input, .form-group select {
+    font-size: 14px;
+  }
+  
+  button {
+    font-size: 16px;
+  }
+
+
+  .form-row {
+    flex-direction: column;
+  }
+  
+  .form-row .form-group {
+    width: 100%; 
+    margin-bottom: 10px;
+  }
+}
