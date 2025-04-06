@@ -24,4 +24,4 @@ Proje dosyalarını bilgisayarınıza indirip çalıştırmak için şu adımlar
 
 1. Bu reposu bilgisayarınıza klonlayın:
    ```bash
-   git clone https://github.com/kullaniciAdi/odeme-formu.git
+   git clone https://github.com/kullaniciAdi/Gorev8.git
